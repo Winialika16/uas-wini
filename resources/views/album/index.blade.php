@@ -2,9 +2,9 @@
 
 @section('content') 
     <div class="row justify-content-center">
-        <div class="col-md-8 bg-success">
+        <div class="col-md-8 bg-danger">
 	<h3 style="text-align: center;">Daftar Album</h3> 
-	<a href="{{ url('album/create') }}" class="bg-warning">Tambah Data</a>
+	<a href="{{ url('album/create') }}" class="bg-light">Tambah Data</a>
 	<div>
 		<div>
 	<table class="table"> 

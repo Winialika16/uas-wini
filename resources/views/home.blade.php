@@ -3,9 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8 bg-info">
+        <div class="col-md-8 bg-success">
             <div class="card">
-                <div class="card-header bg-success">Studio Musik Sistem Informasi</div>
+                <div class="card-header bg-warning">Studio Musik Sistem Informasi</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    Selamat Menikmati Musiknya
+                    Selamat Datang Di Studio Musik Wini
                 </div>
             </div>
         </div>

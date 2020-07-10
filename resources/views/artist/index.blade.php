@@ -3,9 +3,9 @@
 @section('content') 
 
 <div class="row justify-content-center">
-    <div class="col-md-8 bg-success">
+    <div class="col-md-8 bg-danger">
 	<h3 align="center">Daftar Artis</h3>
-    <a href="{{ url('artist/create') }}" class="bg-warning">Tambah Data</a>
+    <a href="{{ url('artist/create') }}" class="bg-light">Tambah Data</a>
 	<table class="table"> 
 		<tr> 
 			<td>Nama</td> 

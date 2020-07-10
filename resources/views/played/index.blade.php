@@ -2,10 +2,10 @@
 
 @section('content') 
 <div class="row justify-content-center">
-    <div class="col-md-8 bg-success">
+    <div class="col-md-8 bg-danger">
 <div class="container">
 	<h3>Daftar Played</h3>
-	<a href="{{ url('played/create') }}" class="bg-warning">Tambah Data</a> 
+	<a href="{{ url('played/create') }}" class="bg-light">Tambah Data</a> 
 	<table class="table"> 
 		<tr> 
 			<td>ID Track</td> 
